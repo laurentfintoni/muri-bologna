@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+  }
+/*   .v-sect{
+    scroll-snap-type: y mandatory;
+    overflow-x: auto;
+    overflow-y: scroll;
+    display: flex;
+    scroll-snap-align: center;
+  } */
+
+  .v-child{
+    scroll-snap-align: start;
+    background: green;
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-type: y mandatory;
+  }
+  h1{
+    margin: 0;
+  }
+  .h-sect{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+  }
+  .h-child{
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+  }
+
+  .h-child:nth-child(2n) {
+    background-color: turquoise;
+  }
+  
+  .h-child:nth-child(3n) {
+    background-color: tomato;
+  }
+
+  .list{
+    margin: 0;
+  }
+  
+  /* Photos styling */
+
+  .first-slide {
+    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna Walls/PHOTOS/2019/IMG_3168.JPG');
+    background-size: 100%;
+  }
+
+  .second-slide {
+    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna Walls/PHOTOS/2019/IMG_3233.JPG');
+    background-size: 100%;
+  }
