@@ -72,7 +72,7 @@
   /* Photos styling */
 
   .intro-slide {
-    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna_Walls/muri-bologna/media/BG/IMG_2728.png');
+    background-image: url('media/BG/IMG_2728.png');
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -80,7 +80,7 @@
   }
 
   .first-slide {
-    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna_Walls/muri-bologna/media/BG/IMG_4401.png');
+    background-image: url('media/BG/IMG_4401.png');
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -88,23 +88,7 @@
   }
 
   .second-slide {
-    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna_Walls/muri-bologna/media/BG/IMG_4254.png');
-    width: 100vw;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .third-slide {
-    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna_Walls/muri-bologna/media/BG/IMG_4560.png');
-    width: 100vw;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .fourth-slide {
-    background-image: url('/Users/laurentfintoni/Desktop/University/PROJECTS/Bologna_Walls/muri-bologna/media/BG/IMG_4577.png');
+    background-image: url('media/BG/IMG_4254.png');
     width: 100vw;
     height: 100vh;
     background-position: center;
