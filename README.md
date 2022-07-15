@@ -1,26 +1,15 @@
-# TK TK 
+# i muri non finisco mai - Vernacular Memory on the Walls of Bologna
 
-## Live links (replace with your own)
-- Leaflet Map https://laurentfintoni.github.io/muri-bologna/ 
-- Google Sheets template https://docs.google.com/spreadsheets/d/1kB-8DUHOTVEA1qGvkInY4RgygMdXq-C2YiyAT4WsVuU/edit#gid=0
+A digital humanities project that documents and archives writings on the walls of Bologna as sites of resistance and vernacular memory.
 
-## Create Your Own
-- See step-by-step tutorial in *Hands-On Data Visualization* https://HandsOnDataViz.org/leaflet-storymaps-with-google-sheets.html
+Built using the [Hands-On Data Visualization](https://HandsOnDataViz.org/leaflet-storymaps-with-google-sheets.html) Storymaps template, powered by Leaflet. 
 
-#### Geocode your address data with Google Sheets add-on
-To geocode (find latitude and longitude coordinates), we recommend installing the free [Geocoding by SmartMonkey add-on for Google Sheets](https://gsuite.google.com/marketplace/app/geocoding_by_smartmonkey/1033231575312). Insert your addresses in place of the samples in the Geocoding Details tab, then use Add-Ons > Geocoding > Geocode Details menu. Learn more in *Hands-On Data Visualization* https://handsondataviz.org/geocode.html
-
-![Geocoding](geocode.png)
-
-#### To finalize your map, you need to either:
-- Download each Google Sheets tab as a CSV file and upload into a `csv` subfolder in your GitHub repo
-  - OR
-- Get your own Google Sheets API Key to insert into `google-doc-url.js`
-
-See more in the tutorial https://handsondataviz.org/leaflet-storymaps-with-google-sheets.html
+Produced as part of the assessment requirements for the Laboratory course in the Digital Humanities and Digital Knowledge master’s degree at the University of Bologna a/y 21-22.
 
 ## Credits (and licenses)
-Developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](https://github.com/jackdougherty) with support from Connecticut Humanities and Trinity College, CT. Inspired by Code for Atlanta mapsfor.us (2016) https://github.com/codeforatlanta/mapsforus (BSD-3-Clause). Adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html.
+Project and all related data uploaded to the GitHub repository are released under a [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+Storymaps developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](https://github.com/jackdougherty) with support from Connecticut Humanities and Trinity College, CT. Inspired by Code for Atlanta mapsfor.us (2016) https://github.com/codeforatlanta/mapsforus (BSD-3-Clause). Adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html.
 
 We use [Google Sheets API version 4](https://developers.google.com/sheets/api), with these open-source components:
 
