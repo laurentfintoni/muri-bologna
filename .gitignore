@@ -1,3 +1,4 @@
 .DS_Store
 muri-bologna.code-workspace
-media/
+media/*
+2021.csv
