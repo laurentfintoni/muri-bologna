@@ -134,8 +134,23 @@
       background-size: cover;
     }
 
+    .second-slide {
+      background-image: url('/muri-bologna/media/BG/IMG_5381.png');
+      width: 100vw;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
     .shadow-lg {
       height: 600px;
     }
   }
 
+  @media (max-width: 820px) {
+    
+    .shadow-lg {
+      height: 800px;
+    }
+  }
