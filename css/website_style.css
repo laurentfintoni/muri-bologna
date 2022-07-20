@@ -124,9 +124,9 @@
 
   /* mobile fixes */ 
 
-  @media (max-width: 412px) {
+  @media (max-width: 425px) {
     .intro-slide {
-      background-image: url('/muri-bologna/media/BG/IMG_5506.png');
+      background-image: url('/muri-bologna/media/BG/IMG_5395.png');
       width: 100vw;
       height: 100vh;
       background-position: center;
