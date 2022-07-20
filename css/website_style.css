@@ -133,5 +133,9 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    .shadow-lg {
+      height: 600px;
+    }
   }
 
