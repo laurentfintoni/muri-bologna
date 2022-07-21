@@ -153,8 +153,7 @@
   }
 
   @media (max-width: 820px) {
-    
     .shadow-lg {
-      height: 750px !important;
+      height: 750px;
     }
   }
