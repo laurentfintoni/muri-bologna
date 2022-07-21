@@ -144,7 +144,7 @@
     }
 
     .shadow-lg {
-      height: 400px;
+      height: 450px !important;
     }
 
     .p-5 {
@@ -155,6 +155,6 @@
   @media (max-width: 820px) {
     
     .shadow-lg {
-      height: 800px;
+      height: 750px !important;
     }
   }
