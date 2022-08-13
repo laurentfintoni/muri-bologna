@@ -33,6 +33,7 @@
   body{
     margin: 0;
     font-family: 'ABeeZee', sans-serif !important; 
+    overscroll-behavior: none;
   }
 
   .v-child{
