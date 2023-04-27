@@ -6,6 +6,8 @@ Built using the [Hands-On Data Visualization](https://HandsOnDataViz.org/leaflet
 
 Produced as part of the assessment requirements for the Laboratory course in the Digital Humanities and Digital Knowledge master’s degree at the University of Bologna a/y 21-22.
 
+NOTE: This repo preserves the data for the project as it stands in Spring of 2023, one year after it was first submitted as part of the master's course. It is no longer being updated and the live version of the site can be found [here](https://studies.laurentfintoni.com/walls-bologna/) where it will continue to be updated to cover at least the years 2021, 2022, and 2023. 
+
 ## Credits (and licenses)
 Project and all related data uploaded to the GitHub repository are released under a [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
