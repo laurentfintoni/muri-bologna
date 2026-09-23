@@ -641,5 +641,10 @@
 		return new L.TileLayer.Provider(provider, options);
 	};
 
+	L.tileLayer.provider('CartoDB.Positron', {
+    variant: '',
+    apikey: 'cb1_3vk1_1_915179f5636f091d203c3f8d'
+	}).addTo(map);
+
 	return L;
 }));
