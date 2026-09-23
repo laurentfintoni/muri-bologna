@@ -90,6 +90,10 @@
 			// Compute final options combining provider options with any user overrides
 			var layerOpts = L.Util.extend({}, provider.options, options);
 			L.TileLayer.prototype.initialize.call(this, provider.url, layerOpts);
+			L.tileLayer.provider('CartoDB.Positron', {
+    		variant: '',
+    		apikey: 'cb1_3vk1_1_915179f5636f091d203c3f8d'
+			}).addTo(map);
 		}
 	});
 
@@ -640,11 +644,6 @@
 	L.tileLayer.provider = function (provider, options) {
 		return new L.TileLayer.Provider(provider, options);
 	};
-
-	L.tileLayer.provider('CartoDB.Positron', {
-    variant: '',
-    apikey: 'cb1_3vk1_1_915179f5636f091d203c3f8d'
-	}).addTo(map);
 
 	return L;
 }));
