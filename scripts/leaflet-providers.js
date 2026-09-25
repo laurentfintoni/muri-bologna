@@ -90,10 +90,6 @@
 			// Compute final options combining provider options with any user overrides
 			var layerOpts = L.Util.extend({}, provider.options, options);
 			L.TileLayer.prototype.initialize.call(this, provider.url, layerOpts);
-			L.tileLayer.provider('CartoDB.Positron', {
-    		variant: '',
-    		apikey: 'cb1_3vk1_1_915179f5636f091d203c3f8d'
-			}).addTo(map);
 		}
 	});
 
@@ -503,7 +499,7 @@
 			}
 		},
 		CartoDB: {
-			url: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/{variant}/{z}/{x}/{y}.png',
+			url: 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key={apikey}',
       url2: 'http://{s}.basemaps.cartocdn.com/{variant}/{z}/{x}/{y}.png',
 			options: {
 				attribution: '{attribution.OpenStreetMap} &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
