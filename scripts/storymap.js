@@ -84,7 +84,7 @@ $(window).on('load', function() {
    */
   function addBaseMap() {
     var basemap = trySetting('_tileProvider', 'Stamen.TonerLite');
-    L.tileLayer.provider(basemap, {
+    L.tileLayer.provider('CartoDB.Positron', {
       maxZoom: 20,
       apikey: 'cb1_3vk1_1_915179f5636f091d203c3f8d'
     }).addTo(map);
